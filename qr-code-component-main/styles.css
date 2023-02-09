@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
+
 :root {
     --light-gray: hsl(212, 45%, 89%);
     --white: hsl(0, 0%, 100%);
@@ -13,19 +14,20 @@
 }
 
 body {
+    font-size: 62.5%;
     background-color: var(--light-gray);
     font-family: 'Outfit', sans-serif;
-    display: flex;
-    align-items: center;
+    display: grid;
+    place-content: center;
     height: 100vh;
 }
 
 /* Hero Section */
 
 .hero {
-    max-width: 400px;
+    max-width: 20rem;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 0.5rem;
     background: var(--white);
     padding: 1.25rem 0rem;
     border-radius: 10px;
@@ -40,14 +42,14 @@ body {
     margin: 1rem auto;
     font-weight: 700;
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     width: 90%;
 }
 
 .hero p {
     font-weight: 400;
-    width: 75%;
+    width: 80%;
     margin: 1rem auto;
     color: var(--grayish-blue);
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
